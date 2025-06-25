@@ -383,9 +383,9 @@
 /* Global Styles */
 :root {
     /* Branding Colors */
-    --primary-color: #8A2BE2;  /* Main purple */
-    --primary-dark: #6A1E9E;  /* Darker purple shade */
-    --primary-light: #A953F0;  /* Lighter purple shade */
+    --primary-color: #612ECB;  /* Main purple */
+    --primary-dark: #4D24A2;  /* Darker purple shade */
+    --primary-light: #8057D5;  /* Lighter purple shade */
     
     /* Background Colors */
     --bg-main: #121212;  /* Dark background */
@@ -630,12 +630,12 @@ img {
 .btn-signup {
     background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
     color: white !important;
-    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.2);
+    box-shadow: 0 4px 15px rgba(97, 46, 203, 0.2);
 }
 
 .btn-signup:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(138, 43, 226, 0.3);
+    box-shadow: 0 6px 20px rgba(97, 46, 203, 0.3);
 }
 
 .hamburger {
@@ -801,9 +801,9 @@ body.menu-open {
     align-items: center;
     justify-content: center;
     box-shadow: 
-        0 0 0 10px rgba(138, 43, 226, 0.1),
-        0 0 0 20px rgba(138, 43, 226, 0.05),
-        0 0 50px rgba(138, 43, 226, 0.2);
+        0 0 0 10px rgba(97, 46, 203, 0.1),
+        0 0 0 20px rgba(97, 46, 203, 0.05),
+        0 0 50px rgba(97, 46, 203, 0.2);
     transition: var(--transition);
     animation: float 6s ease-in-out infinite;
     overflow: hidden;
@@ -822,7 +822,7 @@ body.menu-open {
     right: 0;
     bottom: 0;
     border-radius: 50%;
-    background: linear-gradient(45deg, rgba(169, 83, 240, 0.5), rgba(106, 30, 158, 0.3));
+    background: linear-gradient(45deg, rgba(128, 87, 213, 0.5), rgba(77, 36, 162, 0.3));
     opacity: 0;
     transition: var(--transition);
     background-size: 400% 400%;
@@ -832,9 +832,9 @@ body.menu-open {
 .phone-mockup:hover {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 
-        0 0 0 10px rgba(138, 43, 226, 0.2),
-        0 0 0 20px rgba(138, 43, 226, 0.1),
-        0 0 70px rgba(138, 43, 226, 0.3);
+        0 0 0 10px rgba(97, 46, 203, 0.2),
+        0 0 0 20px rgba(97, 46, 203, 0.1),
+        0 0 70px rgba(97, 46, 203, 0.3);
 }
 
 .phone-mockup:hover::before {
@@ -867,7 +867,7 @@ body.menu-open {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(169, 83, 240, 0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(128, 87, 213, 0.3), transparent);
 }
 
 .team-section h2 {
@@ -1304,7 +1304,7 @@ body.menu-open {
     transform: translateX(-50%);
     width: 150px;
     height: 25px;
-    background: linear-gradient(45deg, rgba(169, 83, 240, 0.5), rgba(106, 30, 158, 0.3));
+    background: linear-gradient(45deg, rgba(128, 87, 213, 0.5), rgba(77, 36, 162, 0.3));
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     z-index: 2;
@@ -1586,7 +1586,7 @@ body.menu-open {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(169, 83, 240, 0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(128, 87, 213, 0.3), transparent);
 }
 
 .contact-cards {
@@ -1672,7 +1672,7 @@ body.menu-open {
 
 .contact-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 40px rgba(138, 43, 226, 0.15);
+    box-shadow: 0 15px 40px rgba(97, 46, 203, 0.15);
 }
 
 .contact-card:hover::before {
@@ -1690,7 +1690,7 @@ body.menu-open {
     justify-content: center;
     color: white;
     font-size: 1.7rem;
-    box-shadow: 0 8px 20px rgba(138, 43, 226, 0.25);
+    box-shadow: 0 8px 20px rgba(97, 46, 203, 0.25);
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     position: relative;
     z-index: 1;
@@ -1768,7 +1768,7 @@ body.menu-open {
     font-size: 1rem;
     padding: 10px 20px;
     border-radius: 50px;
-    background: rgba(138, 43, 226, 0.08);
+    background: rgba(97, 46, 203, 0.08);
     position: relative;
     overflow: hidden;
 }
@@ -1789,7 +1789,7 @@ body.menu-open {
 .contact-link:hover {
     color: white;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.2);
+    box-shadow: 0 5px 15px rgba(97, 46, 203, 0.2);
 }
 
 .contact-link:hover::before {
@@ -1923,7 +1923,7 @@ body.menu-open {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.1);
+    box-shadow: 0 0 0 3px rgba(97, 46, 203, 0.1);
     background: #fff;
 }
 
@@ -1994,7 +1994,7 @@ body.menu-open {
 .form-group select:focus,
 .form-group textarea:focus {
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.1);
+    box-shadow: 0 0 0 3px rgba(97, 46, 203, 0.1);
     outline: none;
 }
 
@@ -2167,7 +2167,7 @@ body.menu-open {
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
     min-width: 180px;
-    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.2);
+    box-shadow: 0 4px 15px rgba(97, 46, 203, 0.2);
     transform: translateY(0);
     opacity: 0;
     animation: fadeInUp 0.6s ease 0.6s forwards;
@@ -2218,7 +2218,7 @@ body.menu-open {
 
 .btn-submit:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(138, 43, 226, 0.3);
+    box-shadow: 0 6px 20px rgba(97, 46, 203, 0.3);
 }
 
 .btn-submit:active {
@@ -2307,7 +2307,7 @@ body.menu-open {
 }
 
 .btn-text:hover {
-    background: rgba(138, 43, 226, 0.1);
+    background: rgba(97, 46, 203, 0.1);
     color: var(--primary-dark);
 }
 

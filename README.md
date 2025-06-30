@@ -75,3 +75,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - Design inspired by modern web design trends
 - Icons from Font Awesome
 - Google Fonts for beautiful typography
+
+
+Test Server: 
+python3 -m http.server 8000

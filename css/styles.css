@@ -787,69 +787,17 @@ body.menu-open {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
-/* Phone Mockup */
-.phone-mockup {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    background: linear-gradient(145deg, var(--primary-light), var(--primary-dark));
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 
-        0 0 0 10px rgba(97, 46, 203, 0.1),
-        0 0 0 20px rgba(97, 46, 203, 0.05),
-        0 0 50px rgba(97, 46, 203, 0.2);
-    transition: var(--transition);
+.phone-image {
+    width: 400px;
+    height: auto;
     animation: float 6s ease-in-out infinite;
-    overflow: hidden;
 }
 
 @keyframes float {
     0%, 100% { transform: translateY(0) rotate(0deg); }
     50% { transform: translateY(-15px) rotate(2deg); }
-}
-
-.phone-mockup::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 50%;
-    background: linear-gradient(45deg, rgba(128, 87, 213, 0.5), rgba(77, 36, 162, 0.3));
-    opacity: 0;
-    transition: var(--transition);
-    background-size: 400% 400%;
-    animation: waveMove 8s linear infinite;
-}
-
-.phone-mockup:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 
-        0 0 0 10px rgba(97, 46, 203, 0.2),
-        0 0 0 20px rgba(97, 46, 203, 0.1),
-        0 0 70px rgba(97, 46, 203, 0.3);
-}
-
-.phone-mockup:hover::before {
-    opacity: 1;
-}
-
-.app-icon {
-    width: 180px;
-    height: 180px;
-    object-fit: contain;
-    border-radius: 40px;
-    transition: var(--transition);
-    position: relative;
-    z-index: 1;
-    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
 }
 
 /* Team Section */
@@ -1279,58 +1227,7 @@ body.menu-open {
     font-weight: 500;
 }
 
-.phone-mockup {
-    position: relative;
-    width: 300px;
-    height: 600px;
-    background: linear-gradient(145deg, var(--primary-light), var(--primary-dark));
-    border-radius: 40px;
-    padding: 15px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-    transform: perspective(1000px) rotateY(-10deg);
-    transform-style: preserve-3d;
-    transition: transform 0.5s ease;
-}
 
-.cta-image:hover .phone-mockup {
-    transform: perspective(1000px) rotateY(-5deg) translateY(-10px);
-}
-
-.phone-mockup::before {
-    content: '';
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 150px;
-    height: 25px;
-    background: linear-gradient(45deg, rgba(128, 87, 213, 0.5), rgba(77, 36, 162, 0.3));
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    z-index: 2;
-}
-
-.phone-mockup .screen {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    overflow: hidden;
-    position: relative;
-    background: #121212;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.phone-mockup .screen img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.9;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-}
-
-.cta-image:hover .phone-mockup .screen img {
-    transform: scale(1.03);
-}
 
 /* Responsive styles */
 @media (max-width: 1024px) {
@@ -1401,10 +1298,7 @@ body.menu-open {
         font-size: 0.8rem;
     }
     
-    .phone-mockup {
-        width: 250px;
-        height: 500px;
-    }
+
 }
 
 /* Footer */
@@ -2526,9 +2420,8 @@ body.menu-open {
         font-size: 1.1rem;
     }
     
-    .phone-mockup {
-        width: 280px;
-        height: 560px;
+    .phone-image {
+        width: 300px;
     }
     
     .features h2, .cta h2 {

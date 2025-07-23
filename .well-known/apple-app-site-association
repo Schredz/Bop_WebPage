@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "SGW8G6LW28.com.bopbusiness.bopapp",
+        "paths": [
+          "/post/*",
+          "/profile/*",
+          "/comments/*",
+          "/main",
+          "/"
+        ]
+      }
+    ]
+  }
+} 
